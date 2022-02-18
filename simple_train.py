@@ -111,7 +111,7 @@ if __name__ == "__main__":
     # create optuna study
     study = optuna.create_study(
         sampler=optuna.samplers.TPESampler(multivariate=True),
-        study_name="lightgbm_04",
+        study_name="lightgbm_simple_01",
         
         # we use a locale DB here (a file)
         # if you want to do HP search on multiple machines use an external SQL db
@@ -128,5 +128,13 @@ if __name__ == "__main__":
         ),
     )
 
+    # optuna expects a function with only one parameter (trial)
+    # this is a trick to pass the data anyway
     objective_partial = partial(objective, data=df)
+    
+    # we do not specify n_trials here
+    # this means that the optimization is executed until it is canceled
+    # that can be done by pressing ctrl + c
+    # the optimization can just restarted
+    # previous results are then simply loaded at the beginning from the DB
     study.optimize(objective_partial)
