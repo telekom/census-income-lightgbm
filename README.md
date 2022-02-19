@@ -11,7 +11,7 @@ This work can be understood as a template for other projects.
 
 ## Usage
 
-1. create a new Python environment (for example with conda)
+1. create and activate a new Python environment (for example with conda)
 2. install the dependencies: `pip install -r requirements.txt`
 3. execute `preprocess.ipynb` to load and preprocess the data
 4. start the hyperparameter optimization with `python simple_train.py`
