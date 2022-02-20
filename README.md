@@ -1,4 +1,4 @@
-# Census-Income with LightGBM
+# Census-Income with LightGBM and Optuna
 
 This project uses the [census income data](https://archive-beta.ics.uci.edu/ml/datasets/census+income) and
 fits [LightGBM](https://lightgbm.readthedocs.io/) models on it.
