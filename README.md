@@ -1,6 +1,6 @@
 # Census-Income with LightGBM
 
-This project uses the [Census Income data](https://archive-beta.ics.uci.edu/ml/datasets/census+income) and
+This project uses the [census income data](https://archive-beta.ics.uci.edu/ml/datasets/census+income) and
 fits [LightGBM](https://lightgbm.readthedocs.io/) models on it.
 
 It is not intended to bring super good results, but rather as a demo to show the interaction between 
