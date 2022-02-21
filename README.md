@@ -23,6 +23,7 @@ This work can be understood as a template for other projects.
 
 - provide a script for final model building
 - evaluate final model on the test data
+- use [SHAP (SHapley Additive exPlanations)](https://github.com/slundberg/shap) to calculate feature importance
 
 ## Licensing
 
