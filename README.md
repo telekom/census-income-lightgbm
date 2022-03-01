@@ -9,6 +9,9 @@ It is not intended to bring super good results, but rather as a demo to show the
 
 This work can be understood as a template for other projects.
 
+- `simple_train.py`: do hyperparameter search with Optuna
+- `save_train.py`: fit LightGBM on full dataset with best hyperparameter-set
+
 ## Usage
 
 1. create and activate a new Python environment (for example with conda)
