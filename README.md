@@ -9,8 +9,14 @@ It is not intended to bring super good results, but rather as a demo to show the
 
 This work can be understood as a template for other projects.
 
-- `simple_train.py`: do hyperparameter search with Optuna
-- `save_train.py`: fit LightGBM on full dataset with best hyperparameter-set
+## File Description
+
+The scripts and notebooks should be executed in this order.
+
+1. `preprocess.ipynb`: download, explore and preprocess the data
+2. `simple_train.py`: do hyperparameter search with Optuna
+3. `save_train.py`: fit LightGBM on full dataset with best hyperparameter-set
+4. `shap_values.ipynb`: calculate and visualize shap values / feature importance
 
 ## Usage
 
