@@ -1,7 +1,8 @@
 # Census-Income with LightGBM and Optuna
 
 This project uses the [census income data](https://archive-beta.ics.uci.edu/ml/datasets/census+income) and
-fits [LightGBM](https://lightgbm.readthedocs.io/) models on it.
+fits [LightGBM](https://lightgbm.readthedocs.io/) models on it. We also calculare the feature importances
+with [SHAP (SHapley Additive exPlanations)](https://github.com/slundberg/shap).
 
 It is not intended to bring super good results, but rather as a demo to show the interaction between 
 [LightGBM](https://lightgbm.readthedocs.io/), [Optuna](https://optuna.readthedocs.io/en/stable/index.html) and 
@@ -27,12 +28,6 @@ The scripts and notebooks should be executed in this order.
 5. wait a few minutes
 6. execute `optuna_vis.ipynb` to view the results (can be made in parallel while the optimization is still running)
 7. also look at the graphics in the plots directory
-
-## Still To-do
-
-- provide a script for final model building
-- evaluate final model on the test data
-- use [SHAP (SHapley Additive exPlanations)](https://github.com/slundberg/shap) to calculate feature importance
 
 ## Licensing
 
