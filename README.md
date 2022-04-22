@@ -16,8 +16,10 @@ The scripts and notebooks should be executed in this order.
 
 1. `preprocess.ipynb`: download, explore and preprocess the data
 2. `simple_train.py`: do hyperparameter search with Optuna
-3. `save_train.py`: fit LightGBM on full dataset with best hyperparameter-set
-4. `shap_values.ipynb`: calculate and visualize shap values / feature importance
+3. `optuna_vis.ipynb`: print and visualize optuna results
+4. `save_train.py`: fit LightGBM on full dataset with best hyperparameter-set
+5. `shap_values.ipynb`: calculate and visualize shap values / feature importance
+6. `optuna.db`: this was intentionally placed in git to be able to visualize the results directly using `optuna_vis.ipynb`
 
 ## Usage
 
