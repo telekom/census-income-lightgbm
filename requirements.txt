@@ -1,6 +1,6 @@
 # we use Python 3.8 here
 pandas==1.4.1
-joblib==1.1.0
+joblib==1.2.0
 scikit-learn==1.0.2
 hpoflow==0.1.2
 optuna==2.10.0
